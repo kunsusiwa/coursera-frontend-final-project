@@ -1,0 +1,60 @@
+.main-top {
+    display: flex;
+    justify-content: space-between;
+    background-color: #495E57;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    padding-left: 15rem;
+   padding-right: 15rem;
+
+}
+
+.main-top-left {
+    flex: 1;
+    margin-right: 20px;
+    text-align: left;
+  }
+
+p {
+    max-width: 20rem;
+}
+
+img.restaurant-food {
+    max-height: 25rem;
+    border-radius: 10px;
+}
+h1 {
+    color: #F4CE14;
+    font-family: 'Markazi', serif;
+    font-size: 40pt;
+    margin-bottom: 0;
+}
+
+h2{
+    margin-top: 0;
+    margin-bottom: 3rem;
+    color: #EDEFEE;
+    font-size: 24pt;
+    font-family: 'Markazi', serif;
+}
+
+p {
+    color: #EDEFEE;
+    font-family: 'Karla', sans-serif;
+    font-weight: medium;
+    font-size: 14pt;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+}
+button {
+    background-color: #F4CE14;
+    border: none;
+    border-radius: 10px;
+    padding: 1.5%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}

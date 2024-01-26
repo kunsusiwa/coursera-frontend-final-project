@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+.logo img {
+max-width: 200px; /* Adjust the max-width as needed */
+}
+
+.nav-links {
+list-style: none;
+display: flex;
+margin: 0; /* Remove default margin on the list */
+padding: 0; /* Remove default padding on the list */
+}
+
+.nav-links li {
+margin-right: 2.5rem;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: bold;
+}

@@ -1,0 +1,63 @@
+.reservation-form {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #F4CE14;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+
+.form-control {
+    margin-bottom: 16px;
+  }
+
+.button-submit {
+    margin-top: 16px;
+  }
+
+div.form-background {
+    background-color: #495E57;
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+}
+
+div {
+    margin-bottom: 1rem;
+  }
+
+label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.error {
+  color: red;
+  font-size: 0.8em;
+  margin-top: 5px;
+}
+
+button {
+  background-color:#F4CE14;
+  color: black;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: burlywood;
+}
+
+button[type="submit"]:disabled {
+  background-color: #d3d3d3;
+  color: #a9a9a9;
+  cursor: not-allowed;
+}
